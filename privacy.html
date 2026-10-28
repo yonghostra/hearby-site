@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearby 개인정보처리방침 / Privacy Policy</title>
+<meta name="description" content="Hearby(STRA Co., Ltd.) 개인정보처리방침. 익명 사용자 ID, 앱 사용 중 위치, 공개 게시물(텍스트·음성)의 처리와 삭제 방법.">
+<style>
+  :root { --ink:#12131A; --coral:#FF6B4A; --bg:#FFFDFB; --muted:#5F626E; --line:#E8E4DF; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height:1.7; word-break:keep-all; }
+  main { max-width:720px; margin:0 auto; padding:28px 20px 64px; }
+  nav { font-size:14px; color:var(--muted); margin-bottom:18px; }
+  h1 { font-size:26px; margin:0 0 6px; letter-spacing:-0.01em; }
+  .meta { color:var(--muted); font-size:14px; margin:0 0 24px; }
+  h2 { font-size:19px; margin:34px 0 10px; padding-top:6px; }
+  h3 { font-size:16px; margin:20px 0 6px; }
+  p, li, td, th { font-size:16px; }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  a { color:var(--coral); text-underline-offset:3px; }
+  table { border-collapse:collapse; width:100%; margin:10px 0 14px; font-size:15px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:#F6F2EE; font-weight:600; }
+  .note { background:#FFF4EF; border-left:4px solid var(--coral); padding:10px 14px; border-radius:0 10px 10px 0; margin:14px 0; }
+  .en { margin-top:56px; padding-top:24px; border-top:2px solid var(--line); }
+  .en h2 { font-size:22px; }
+  .en h3 { font-size:17px; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  @media (max-width:480px) { table { display:block; overflow-x:auto; } }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">← Hearby</a> · <a href="#en">English summary</a></nav>
+
+  <h1>Hearby 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026년 10월 29일 · 운영: STRA Co., Ltd. (<a href="mailto:hello@stra.ai">hello@stra.ai</a>)</p>
+
+  <p>Hearby(히어바이)는 지도 위 한 지점에 목소리를 남기고, 그 자리를 지나는 사람에게 들려주는 위치 기반 소리 기억 앱입니다. 이 문서는 앱이 어떤 정보를 어떻게 다루는지 설명합니다. STRA Co., Ltd.(이하 "회사")가 개인정보 처리 책임을 집니다.</p>
+
+  <h2 id="who">1. 운영자</h2>
+  <p>STRA Co., Ltd. · 이메일 <a href="mailto:hello@stra.ai">hello@stra.ai</a> · 개인정보와 관련한 문의·요청은 이 주소로 보내 주시면 됩니다.</p>
+
+  <h2 id="data">2. 수집하는 정보</h2>
+  <p>Hearby는 회원가입이나 로그인이 없는 앱입니다. 이름, 이메일, 전화번호, 연락처, 사진, 광고 식별자는 수집하지 않으며, 분석·광고 SDK를 쓰지 않습니다. 앱이 다루는 정보는 아래가 전부입니다.</p>
+  <table>
+    <tr><th>항목</th><th>내용</th><th>보관</th></tr>
+    <tr><td>익명 사용자 ID</td><td>앱을 처음 열 때 자동으로 만들어지는 무작위 ID(Supabase 익명 세션). 내가 남긴 기록, 신고, 차단을 구분하는 데만 쓰며, 실제 사람을 식별하는 정보와 연결되지 않습니다.</td><td>서버. 기록 전체 삭제 또는 앱 삭제 시 더 이상 쓰이지 않음</td></tr>
+    <tr><td>위치</td><td>앱을 <strong>사용하는 동안</strong>의 정확한 위치(GPS). 지도를 내 위치로 맞추고, 듣기 모드를 켠 동안 "기록 반경 40m 안에 들어왔는지"를 <strong>기기 안에서</strong> 판정하는 데 씁니다. 실시간 위치는 서버로 보내지 않습니다. 서버에 저장되는 좌표는 <strong>내가 기록을 남길 때 직접 고른 지점의 좌표</strong>뿐입니다. "항상 허용" 권한은 요청하지 않습니다.</td><td>게시물 좌표만 서버에 저장</td></tr>
+    <tr><td>게시물(기록)</td><td>텍스트(200자 이내), 선택한 목소리와 분위기, 또는 직접 녹음한 음성 파일(최대 60초), 서버가 만든 음성 파일, 닉네임(선택 입력), 작성 시각. <strong>게시물은 모든 사용자에게 공개</strong>되며 누구나 지도에서 보고 들을 수 있습니다.</td><td>삭제할 때까지 서버</td></tr>
+    <tr><td>신고·차단</td><td>내가 신고한 기록과 사유, 내가 차단한 사용자의 익명 ID. 커뮤니티 운영에만 씁니다.</td><td>서버</td></tr>
+  </table>
+  <p>주변 기록을 불러올 때 지도 중심 좌표가 서버 요청에 포함되지만, 이는 조회에만 쓰이고 저장하지 않습니다. 서버 접속 시 IP 주소 등 일반적인 접속 기록이 호스팅 사업자에 일시적으로 남을 수 있으며 이용자 식별에 쓰지 않습니다.</p>
+  <div class="note">기록은 공개 게시물입니다. 전화번호, 집 주소, 실명 등 알리고 싶지 않은 정보는 기록에 넣지 말아 주세요. 직접 녹음한 목소리도 공개됩니다.</div>
+
+  <h2 id="purpose">3. 이용 목적</h2>
+  <ul>
+    <li>지도에 기록을 표시하고, 그 자리에 들어온 사용자에게 재생하기</li>
+    <li>텍스트 기록을 음성으로 합성하고 분위기 배경음을 섞기</li>
+    <li>신고·차단·자동 숨김 등 커뮤니티 운영과 이용자 문의 대응</li>
+  </ul>
+  <p>위 목적 외에 마케팅이나 프로필 분석에 쓰지 않습니다.</p>
+
+  <h2 id="third">4. 처리 위탁과 제3자</h2>
+  <ul>
+    <li><strong>Supabase</strong> (데이터베이스·파일 저장소·익명 인증, 서울 리전): 위 표의 정보를 보관하고 앱에 전달합니다.</li>
+    <li><strong>음성 합성(TTS)</strong>: 회사가 직접 운영하는 서버에서 오픈소스 모델로 처리하며, 기록 텍스트를 외부 음성합성 서비스에 보내지 않습니다.</li>
+    <li><strong>ElevenLabs API</strong> (배경음 생성): "카페", "바닷가" 같은 분위기를 고르면 회사가 정해 둔 고정된 영문 설명문만 ElevenLabs에 보내 배경음을 만듭니다. 사용자의 텍스트, 음성, 위치, ID 등 개인정보는 전혀 보내지 않습니다.</li>
+    <li><strong>Google Maps</strong> (지도 표시): 앱 안 지도는 Google Maps SDK로 그립니다. 지도 타일을 불러올 때 표시 중인 지도 영역과 기기 정보가 Google에 전달되며, 이는 <a href="https://policies.google.com/privacy" rel="noopener">Google 개인정보처리방침</a>의 적용을 받습니다.</li>
+  </ul>
+  <p>그 밖의 제3자 제공은 없으며, 법령에 따른 요청이 있을 때만 예외입니다. 개인정보를 판매하지 않습니다.</p>
+
+  <h2 id="deletion">5. 보관 기간과 삭제</h2>
+  <ul>
+    <li>게시물은 작성자가 지우거나 운영 정책(신고 누적·규칙 위반)으로 삭제될 때까지 보관합니다.</li>
+    <li>앱 안 <strong>설정 → "내 기록 전체 삭제"</strong>를 누르면 내 익명 ID에 묶인 모든 기록(텍스트·음성 파일·좌표·신고·차단)이 <strong>즉시</strong> 지워집니다.</li>
+    <li>앱을 이미 지웠거나 앱에서 삭제가 어렵다면 <a href="mailto:hello@stra.ai">hello@stra.ai</a>로 요청해 주세요. 요청을 확인하는 대로 처리합니다. 계정이 없으므로 별도의 탈퇴 절차는 없습니다.</li>
+    <li>앱을 삭제하면 기기에 저장된 설정(닉네임, 듣기 기록)도 함께 지워집니다.</li>
+  </ul>
+
+  <h2 id="rights">6. 이용자의 권리</h2>
+  <p>이용자는 자신의 기록을 언제든 열람·수정(삭제 후 재작성)·삭제할 수 있고, 위 이메일로 처리 내역을 문의하거나 처리 정지를 요구할 수 있습니다. 위치 권한은 기기 설정에서 언제든 끌 수 있으며, 끄더라도 지도의 기록을 눌러 듣는 기능은 계속 쓸 수 있습니다.</p>
+
+  <h2 id="security">7. 보안</h2>
+  <p>앱과 서버 사이의 전송 구간은 TLS로 암호화합니다. 서버의 데이터는 접근 정책(행 단위 보안)으로 보호되어 다른 사용자가 내 기록을 수정하거나 지울 수 없습니다.</p>
+
+  <h2 id="children">8. 아동</h2>
+  <p>Hearby는 만 14세 미만을 대상으로 하지 않으며, 만 14세 미만의 개인정보를 의도적으로 수집하지 않습니다. 만 14세 미만 아동의 기록이 확인되면 지체 없이 삭제합니다.</p>
+
+  <h2 id="changes">9. 변경</h2>
+  <p>방침이 바뀌면 이 페이지에 게시하고 시행일을 갱신합니다. 중요한 변경은 앱 안에서도 알립니다.</p>
+
+  <p>문의: STRA Co., Ltd. · <a href="mailto:hello@stra.ai">hello@stra.ai</a></p>
+
+  <section class="en" id="en">
+    <h2>Hearby Privacy Policy — English summary</h2>
+    <p class="meta">Effective 29 October 2026 · STRA Co., Ltd. · <a href="mailto:hello@stra.ai">hello@stra.ai</a>. The Korean text above is the binding version; this is a summary.</p>
+
+    <h3>Who we are</h3>
+    <p>Hearby is made and operated by STRA Co., Ltd. Contact us at hello@stra.ai for anything related to your data.</p>
+
+    <h3>What we collect</h3>
+    <ul>
+      <li><strong>Anonymous user ID.</strong> Created automatically on first launch (Supabase anonymous session). No name, email, phone number, contacts, photos or advertising identifiers are collected, and we use no analytics or ad SDKs.</li>
+      <li><strong>Precise location, only while the app is in use.</strong> It centres the map and, while Listen mode is on, lets the device itself check whether you are within 40 m of a memory. The live location stream never leaves the device. The only coordinates stored on our server are those of the spot you deliberately choose when posting a memory. We do not request "Always" location access.</li>
+      <li><strong>Memories you post.</strong> Text (up to 200 characters), chosen voice and ambience, or your own recording (up to 60 s), the synthesized audio file, an optional nickname and the time of posting. <strong>Memories are public</strong> — anyone using the app can see and hear them.</li>
+      <li><strong>Reports and blocks</strong> you make, used only for moderation.</li>
+    </ul>
+
+    <h3>Third parties</h3>
+    <ul>
+      <li><strong>Supabase</strong> (database, storage, anonymous auth; Seoul region) hosts the data above.</li>
+      <li><strong>Text-to-speech</strong> runs on our own server with an open-source model; your text is not sent to any external TTS service.</li>
+      <li><strong>ElevenLabs API</strong> generates the optional ambience sounds. It receives only a fixed English prompt we wrote for each ambience (e.g. "quiet café background") — never your text, audio, location or ID.</li>
+      <li><strong>Google Maps SDK</strong> renders the map; map requests and device information go to Google under Google's privacy policy.</li>
+    </ul>
+    <p>We do not sell personal data and do not share it with anyone else except as required by law.</p>
+
+    <h3>Retention and deletion</h3>
+    <p>Memories are kept until you delete them or we remove them under our community rules. In the app, <strong>Settings → "Delete all my memories"</strong> immediately deletes everything tied to your anonymous ID (text, audio, coordinates, reports, blocks). If you have already uninstalled the app, email hello@stra.ai and we will delete it for you. There is no account to close.</p>
+
+    <h3>Security</h3>
+    <p>All traffic between the app and our servers is encrypted with TLS, and row-level security policies prevent other users from changing or deleting your memories.</p>
+
+    <h3>Children</h3>
+    <p>Hearby is not directed to children under 14 and we do not knowingly collect their data. If we learn of such data we delete it promptly.</p>
+
+    <h3>Changes</h3>
+    <p>Updates to this policy are posted on this page with a new effective date; significant changes are also announced in the app.</p>
+  </section>
+
+  <footer>
+    © 2026 STRA Co., Ltd. · <a href="mailto:hello@stra.ai">hello@stra.ai</a> · <a href="index.html">지원 페이지</a>
+  </footer>
+</main>
+</body>
+</html>

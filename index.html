@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearby — 그 자리에 남겨진 목소리</title>
+<meta name="description" content="Hearby는 지도 위 한 지점에 목소리를 남기고, 이어폰을 꽂고 걷다가 그 자리에서 듣는 위치 기반 소리 기억 앱입니다. 지원·문의·개인정보처리방침.">
+<style>
+  :root { --ink:#12131A; --coral:#FF6B4A; --cream:#FFF1E8; --bg:#FFFDFB; --muted:#5F626E; --line:#E8E4DF; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height:1.65; word-break:keep-all; }
+  main { max-width:680px; margin:0 auto; padding:28px 20px 64px; }
+  header { display:flex; align-items:center; gap:16px; padding:8px 0 20px; border-bottom:1px solid var(--line); }
+  header svg { flex:none; width:56px; height:56px; border-radius:14px; }
+  header h1 { margin:0; font-size:26px; letter-spacing:-0.01em; }
+  header p { margin:2px 0 0; color:var(--coral); font-weight:600; }
+  h2 { font-size:19px; margin:34px 0 10px; }
+  p, li { font-size:16px; }
+  ul { padding-left:20px; }
+  li { margin:4px 0; }
+  a { color:var(--coral); text-underline-offset:3px; }
+  .card { border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin:14px 0; background:#fff; }
+  .card h2 { margin-top:0; }
+  .en { color:var(--muted); font-size:15px; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  code { background:#F3EFEA; padding:1px 5px; border-radius:5px; font-size:0.93em; }
+  @media (max-width:420px) { header h1 { font-size:22px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 120 120" aria-hidden="true" role="img">
+      <rect width="120" height="120" rx="27" fill="#12131A"/>
+      <g fill="none" stroke="#FFF1E8" stroke-width="4.6" stroke-linecap="round">
+        <path d="M58.68 30.16 A27 27 0 0 1 72.41 59.61"/>
+        <path d="M62.43 23.10 A35 35 0 0 1 80.23 61.28" opacity="0.88"/>
+        <path d="M66.19 16.04 A43 43 0 0 1 88.06 62.94" opacity="0.75"/>
+      </g>
+      <circle cx="46" cy="54" r="18" fill="#FF6B4A"/>
+      <path d="M29.57 61.35 L46 98 L62.43 61.35 Z" fill="#FF6B4A"/>
+      <circle cx="46" cy="54" r="8.8" fill="#12131A"/>
+      <circle cx="46" cy="54" r="2.9" fill="#FF6B4A"/>
+    </svg>
+    <div>
+      <h1>Hearby</h1>
+      <p>그 자리에 남겨진 목소리</p>
+    </div>
+  </header>
+
+  <h2>Hearby는 어떤 앱인가요</h2>
+  <p>지도 위 한 지점을 고르고 한 줄을 적거나 목소리를 녹음하면, 그 자리에 소리 기억이 남습니다. 다른 사람이 이어폰을 꽂고 걷다가 그 지점(반경 약 40m)에 들어오면 짧은 알림음이 울리고 메시지가 자동으로 재생됩니다.</p>
+  <ul>
+    <li>로그인·회원가입 없음. 앱을 열면 바로 시작합니다.</li>
+    <li>텍스트는 두 가지 목소리(소희·민준)가 읽어 주고, 카페·거리·바닷가·숲·비 오는 날·축제 분위기 배경음을 고를 수 있습니다. 직접 녹음은 최대 60초.</li>
+    <li>듣기 모드를 켜면 화면을 꺼도, 주머니에 넣어도 동작합니다. 지도의 마커를 눌러 바로 들을 수도 있습니다.</li>
+    <li>남긴 기록은 공개이며 누구나 들을 수 있습니다. 모든 기록에 신고 버튼이 있고, 원치 않는 사용자는 차단할 수 있습니다.</li>
+  </ul>
+  <p class="en">Hearby pins voices to places. Leave a line or a recording at a spot on the map; whoever walks by with earphones in hears a chime and then your message. No account needed. The app's interface is in Korean.</p>
+
+  <div class="card">
+    <h2>문의 · 지원 / Support</h2>
+    <p>버그, 제안, 신고 처리 문의, 기록 삭제 요청은 이메일로 보내 주세요. 보통 하루 안에 답합니다.</p>
+    <p><strong>이메일:</strong> <a href="mailto:hello@stra.ai">hello@stra.ai</a><br>
+    <strong>운영:</strong> STRA Co., Ltd.</p>
+    <p class="en">For bugs, suggestions, moderation questions or deletion requests, email <a href="mailto:hello@stra.ai">hello@stra.ai</a>. We usually reply within a day.</p>
+  </div>
+
+  <div class="card">
+    <h2>내 기록 삭제 / Delete my data</h2>
+    <p>앱 안 <strong>설정 → 내 기록 전체 삭제</strong>를 누르면 내 익명 ID에 묶인 모든 기록(텍스트·음성·좌표·신고·차단)이 즉시 지워집니다. 앱을 지운 뒤라면 <a href="mailto:hello@stra.ai">hello@stra.ai</a>로 요청해 주세요. 계정이 없으므로 탈퇴 절차는 따로 없습니다.</p>
+    <p class="en">In the app, Settings → "Delete all my memories" removes everything tied to your anonymous ID immediately. If you have already uninstalled the app, email us. There is no account to close.</p>
+  </div>
+
+  <div class="card">
+    <h2>개인정보처리방침 / Privacy</h2>
+    <p>Hearby가 어떤 정보를 어떻게 다루는지는 <a href="privacy.html">개인정보처리방침</a>에서 확인할 수 있습니다. (한국어 전문 + English summary)</p>
+  </div>
+
+  <h2>자주 묻는 질문</h2>
+  <p><strong>위치는 언제 쓰나요?</strong> 앱을 사용하는 동안에만 씁니다. 듣기 모드의 실시간 위치는 기기 안에서만 처리하고, 서버에는 내가 기록을 남길 때 고른 지점의 좌표만 저장됩니다. "항상 허용" 권한은 요청하지 않습니다.</p>
+  <p><strong>목소리는 누가 읽나요?</strong> 소희·민준은 저희 서버에서 돌리는 오픈소스 음성합성 모델이 만드는 합성 목소리입니다. 실제 사람의 목소리가 아닙니다.</p>
+  <p><strong>부적절한 기록을 봤어요.</strong> 기록 시트의 "신고"를 눌러 주세요. 신고가 3회 쌓이면 자동으로 숨겨지고, 저희가 확인해 삭제합니다. 급한 건은 이메일로 알려 주세요.</p>
+
+  <footer>
+    © 2026 STRA Co., Ltd. · <a href="mailto:hello@stra.ai">hello@stra.ai</a> · <a href="privacy.html">개인정보처리방침</a>
+  </footer>
+</main>
+</body>
+</html>
